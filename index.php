@@ -162,7 +162,7 @@ hestitate nicht in Kontakt zu treten .
 Schießen Sie mir eine E-Mail oder füllen Sie das Formular auf
 der Kontaktseite und lassen Sie uns diese Partei erhalten begonnen .
 				</p>
-				<a class="btn btn-primary" href="#">kontaktieren <i class="fa fa-send"></i></a>
+				<a class="btn btn-primary" href="kevinschmitt/kontakt/">kontaktieren <i class="fa fa-send"></i></a>
 			</div><!-- content -->
 		</div><!-- content-wrapper -->
 	</div><!-- container -->
