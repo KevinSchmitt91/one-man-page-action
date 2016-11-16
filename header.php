@@ -87,14 +87,6 @@
 						</button>
 						<a class="navbar-brand page-scroll" href="#page-header"><img src="<?php bloginfo('stylesheet_directory')?>/assets/img/brand.png" alt="Logo-simple"/></a>
 					</div><!-- navbar-header -->
-					<div class="navbar-collapse collapse cl-effect-17">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a class="page-scroll" href="#service">Service</a></li>
-							<li><a class="page-scroll" href="#about">Prozess</a></li>
-							<li><a class="page-scroll" href="#team">Portfolio</a></li>
-							<li><a class="page-scroll" href="#contact">Kontakt</a></li>
-						</ul><!-- nav -->
-					</div><!-- navbar-collapse -->
 					<?php
 						wp_nav_menu( array(
 							'theme_location'	=> 'primary',

@@ -13,14 +13,38 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'one-man-company-action' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'one-man-company-action' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'one-man-company-action' ), 'one-man-company-action', '<a href="http://kevinschmitt.info" rel="designer">Kevin Schmitt</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<!-- FOOTER -->
+	<footer>
+		<div class="container">
+				<div class="col-sm-4">
+					<div class="social-links">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-twitch"></i></a>
+						<a href="#"><i class="fa fa-youtube"></i></a>
+					</div><!-- social-links -->
+				</div>
+				<div class="col-sm-4">
+					<div class="important-links">
+						<a href="#">Impressum</a>
+						<a href="#">Datenschutz</a>
+						<a href="0">Kontakt</a>
+					</div><!-- important-links -->
+				</div>
+				<div class="col-sm-4">
+					<p><i class="fa fa-copyright"></i> 2016 by Kevin Schmitt</p>
+				</div>
+		</div><!-- container -->
+	</footer><!-- footer -->
+
+	<a class="back-to-top page-scroll" href="#page-header"><i class="fa fa-chevron-up"></i></a>
+
+	<!-- BOOTSTRAP CORE JAVASCRIPT -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory')?>/assets/js/jquery-2.1.4.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory')?>/assets/js/bootstrap.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory')?>/assets/js/jquery.easing.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory')?>/assets/js/main.js"></script>
 
 <?php wp_footer(); ?>
 
