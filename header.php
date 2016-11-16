@@ -16,6 +16,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 
+<!-- Bootstrap core CSS -->
+<link href="<?php bloginfo('stylesheet_directory')?>/assets/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/assets/css/custom.css" />
+
+<!-- Link Effects -->
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/assets/css/linkeffects.css" />
+
+<!-- FontAwesome Icons -->
+<link href="<?php bloginfo('stylesheet_directory')?>/assets/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
 <?php wp_head(); ?>
 </head>
 
@@ -24,26 +39,74 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'one-man-company-action' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
+		<!-- Header -->
+		<section id="page-header">
+			<div class="page-header-header">
+				<div class="container">
+					<div class="social-links">
+						<i class="social-desc">Besuchen Sie uns auf:    </i>
+						<a href="http://twitter.com/sgtadrael" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="http://facebook.com/kevinschmitt.18" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="http://youtube.com/sgtadrael" target="_blank"><i class="fa fa-youtube"></i></a>
+					</div><!--social-links -->
+				</div><!--container -->
+			</div><!-- page-header-header -->
+      <div class="container">
+				<div class="col-sm-6 col-xs-12 page-header-wrapper">
+					<img class="page-header-img" src="<?php bloginfo('stylesheet_directory')?>/assets/img/logo.png" alt="page-logo" />
+				</div>
+				<div class="hide-mobile">
+					<div class="col-sm-3 col-xs-6 page-header-wrapper">
+						<div class="page-header-section">
+							<p>Sie haben noch fragen?</p>
+	            <p><a href="mailto:ich@kevinschmitt.info">ich@kevinschmitt.info</a></p>
+						</div><!-- page-header-section -->
+					</div>
+				</div><!-- hide-mobile -->
+				<div class="hide-mobile">
+					<div class="col-sm-3 col-xs-6 page-header-wrapper">
+						<div class="page-header-section">
+							<p>Oder rufen Sie einfach an!</p>
+							<p><a href="tel:017630443440">0176 / 30443440</a></p>
+						</div><!-- page-header-section -->
+					</div>
+				</div><!-- hide-mobile -->
+      </div>
+		</section> <!-- page-header -->
 
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
+		<!-- NAVBAR -->
+		<div id="navbar-anchor"></div>
+			<nav id="bsNav" class="navbar navbar-inverse navbar-fixed" role="navigation">
 
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'one-man-company-action' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+				<div class="container">
 
-	<div id="content" class="site-content">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" onclick="openNav()">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="fa fa-bars"></span>
+						</button>
+						<a class="navbar-brand page-scroll" href="#page-header"><img src="<?php bloginfo('stylesheet_directory')?>/assets/img/brand.png" alt="Logo-simple"/></a>
+					</div><!-- navbar-header -->
+					<div class="navbar-collapse collapse cl-effect-17">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a class="page-scroll" href="#service">Service</a></li>
+							<li><a class="page-scroll" href="#about">Prozess</a></li>
+							<li><a class="page-scroll" href="#team">Portfolio</a></li>
+							<li><a class="page-scroll" href="#contact">Kontakt</a></li>
+						</ul><!-- nav -->
+					</div><!-- navbar-collapse -->
+				</div><!-- container -->
+			</nav><!-- navbar -->
+			<!-- OVERLAY NAVBAR -->
+			<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+			    <a class="page-scroll" href="#service" onclick="closeNav()">Service</a>
+			    <a class="page-scroll" href="#about" onclick="closeNav()">Prozess</a>
+			    <a class="page-scroll" href="#team" onclick="closeNav()">Portfolio</a>
+			    <a class="page-scroll" href="#contact" onclick="closeNav()">Kontakt</a>
+			  </div><!-- overlay-content -->
+			</div><!-- myNav -->
+
+			<!-- Back-To-Top-Anchor -->
+			<div id="top-anchor"></div>
