@@ -45,9 +45,9 @@
 				<div class="container">
 					<div class="social-links">
 						<i class="social-desc">Besuchen Sie uns auf:    </i>
-						<a href="http://twitter.com/sgtadrael" target="_blank"><i class="fa fa-twitter"></i></a>
-						<a href="http://facebook.com/kevinschmitt.18" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="http://youtube.com/sgtadrael" target="_blank"><i class="fa fa-youtube"></i></a>
+						<a href="http://twitter.com/kevinschmitt91" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="http://facebook.com/kevinschmitt.16" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.youtube.com/channel/UCwuOyj8iCjsnrg6bxDpxifQ" target="_blank"><i class="fa fa-youtube"></i></a>
 					</div><!--social-links -->
 				</div><!--container -->
 			</div><!-- page-header-header -->

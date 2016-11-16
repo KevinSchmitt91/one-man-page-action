@@ -18,10 +18,10 @@
 		<div class="container">
 				<div class="col-sm-4">
 					<div class="social-links">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-twitch"></i></a>
-						<a href="#"><i class="fa fa-youtube"></i></a>
+						<a href="http://facebook.com/kevin.schmitt.16" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="http://twitter.com/kevinschmitt91" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://beam.pro/SgtAdrael" target="_blank"><i class="fa fa-twitch"></i></a>
+						<a href="https://www.youtube.com/channel/UCwuOyj8iCjsnrg6bxDpxifQ" target="_blank"><i class="fa fa-youtube"></i></a>
 					</div><!-- social-links -->
 				</div>
 				<div class="col-sm-4">
