@@ -28,7 +28,7 @@
 					<div class="important-links">
 						<a href="#">Impressum</a>
 						<a href="#">Datenschutz</a>
-						<a href="0">Kontakt</a>
+						<a href="kevinschmitt/kontakt/">Kontakt</a>
 					</div><!-- important-links -->
 				</div>
 				<div class="col-sm-4">
