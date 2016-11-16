@@ -27,31 +27,17 @@ thoughts in the contact form.</h5>
             <section id="contact" class="site-section">
               <div class="contact-form">
                 <p class="contact-desc">Die mit * gekennzeichneten Felder müssen ausgefüllt sein!</p>
-                <form role="form" class="clearfix">
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="form-group">
-                        <label class="contact-header" for="contact-first-name">Ihr Vorname *</label>
-                        <input type="text" class="form-control input-lg" id="contact-name" placeholder="Ihr Vorname?"></input>
-                      </div><!-- form-group -->
-                      <div class="form-group">
-                        <label class="contact-header" for="contact-last-name">Ihr Nachname *</label>
-                        <input type="text" class="form-control input-lg" id="contact-name" placeholder="Ihr Nachname?"></input>
-                      </div><!-- form-group -->
-                      <div class="form-group">
-                        <label class="contact-header" for="contact-mail">Ihre Mailadresse *</label>
-                        <input type="email" class="form-control input-lg" id="contact-email" placeholder="Ihre Mailadresse?"></input>
-                      </div><!-- form-group -->
-                    </div><!-- end col -->
-                    <div class="col-sm-12">
-                      <div class="form-group">
-                        <label class="contact-header" for="contact-msg">Ihre Nachricht</label>
-                        <textarea class="form-control input-lg" id="contact-words" rows="5" placeholder="Schreiben Sie mir eine Nachricht!"></textarea>
-                        <input type="submit" class="btn btn-contact" value="absenden" />
-                      </div><!-- form-group -->
-                    </div><!-- end col -->
-                  </div><!-- row -->
-                </form><!-- form -->
+                <?php
+      					if ( have_posts() ) {
+      						while ( have_posts() ) {
+
+      							the_post(); ?>
+
+      							<?php the_content(); ?>
+
+      						<?php }
+      					}
+      					?>
               </div><!-- contact-form -->
             </section><!-- contact -->
           </div><!-- col -->

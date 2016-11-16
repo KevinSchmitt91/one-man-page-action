@@ -930,6 +930,7 @@ footer .important-links a:hover {
 /** CONTACT **/
 #contact {
 	margin: 35px 0;
+	min-height: 80vh;
 }
 
 #contact .contact-desc {

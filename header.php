@@ -19,9 +19,6 @@
 <!-- Bootstrap core CSS -->
 <link href="<?php bloginfo('stylesheet_directory')?>/assets/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom CSS -->
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/assets/css/custom.css" />
-
 <!-- Link Effects -->
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/assets/css/linkeffects.css" />
 
