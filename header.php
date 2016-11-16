@@ -95,6 +95,14 @@
 							<li><a class="page-scroll" href="#contact">Kontakt</a></li>
 						</ul><!-- nav -->
 					</div><!-- navbar-collapse -->
+					<?php
+						wp_nav_menu( array(
+							'theme_location'	=> 'primary',
+							'container'			=> 'nav',
+							'container_class'	=> 'navbar-collapse collapse cl-effect-17',
+							'menu_class'		=> 'nav navbar-nav navbar-right'
+						));
+					?>
 				</div><!-- container -->
 			</nav><!-- navbar -->
 			<!-- OVERLAY NAVBAR -->
