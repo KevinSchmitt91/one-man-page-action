@@ -3,11 +3,6 @@
 	Template Name: Home Page
 */
 
-// Custom Fields
-$number_einsatz			= get_post_meta(11, 'number_einsatz', true);
-$number_kraefte	= get_post_meta(11, 'number_kraefte', true);
-$number_mitglieder		= get_post_meta(11, 'number_mitglieder', true);
-
 get_header(); ?>
 <!-- HERO -->
 <section id="hero">
@@ -157,7 +152,7 @@ hestitate nicht in Kontakt zu treten .
 Schießen Sie mir eine E-Mail oder füllen Sie das Formular auf
 der Kontaktseite und lassen Sie uns diese Partei erhalten begonnen .
 				</p>
-				<a class="btn btn-primary" href="kevinschmitt/kontakt/">kontaktieren <i class="fa fa-send"></i></a>
+				<a class="btn btn-primary" href="/kevinschmitt/kontakt/">kontaktieren <i class="fa fa-send"></i></a>
 			</div><!-- content -->
 		</div><!-- content-wrapper -->
 	</div><!-- container -->

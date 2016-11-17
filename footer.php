@@ -26,9 +26,9 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="important-links">
-						<a href="kevinschmitt/impressum/">Impressum</a>
-						<a href="kevinschmitt/datenschutz">Datenschutz</a>
-						<a href="kevinschmitt/kontakt/">Kontakt</a>
+						<a href="/kevinschmitt/impressum">Impressum</a>
+						<a href="/kevinschmitt/datenschutz">Datenschutz</a>
+						<a href="/kevinschmitt/kontakt">Kontakt</a>
 					</div><!-- important-links -->
 				</div>
 				<div class="col-sm-4">
