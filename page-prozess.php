@@ -54,6 +54,7 @@ Projekte erstellen.</h5>
       </div><!-- content-wrapper -->
     </div><!-- container -->
   </div><!-- process-part -->
+
   <div class="process-part" style="background-color: #4A4A4A">
     <div class="container">
       <div class="content-wrapper">
@@ -68,10 +69,13 @@ Projekte erstellen.</h5>
               Dieser Entwurf bietet Informationen über Design, Benutzererfahrung und Funktionalität.
               Wir testen die Benutzererfahrung mit dem vorläufigen Produkt und gestalten es so um
               bis die beste Benutzererfahrung erreicht wurde.
+            </p>
+          </div><!-- col -->
         </div><!-- content -->
       </div><!-- content-wrapper -->
     </div><!-- container -->
   </div><!-- process-part -->
+
   <div class="process-part secondary-font">
     <div class="container">
       <div class="content-wrapper">
@@ -80,7 +84,7 @@ Projekte erstellen.</h5>
             <h2>003</h2>
             <h2>Entwickeln</h2>
           </div><!-- col -->
-          <div class="col-sm-7 col-sm-offset-3">
+          <div class="col-sm-6 col-sm-offset-3">
             <p>
               Nachdem der Entwurf Ihres Produkts die beste Benutzererfahrung bietet fangen wir mit der
               Entwicklung an. Die in der Planugsphase sorgfältig dokumentierten Ziele des Produkts werden
