@@ -13,14 +13,12 @@ get_header(); ?>
           <div class="col-sm-4">
             <h2>Meine Projekte</h2>
             <div class="divider-primary"></div>
-            <h5>Whatever your needs and goals may be,
-do get in touch and we can find out if I
-can help you take this forward. If you
-would like to discuss your project or would j
-ust like to say hello, don’t hestitate! Shoot me
-a message on Twitter, send me an email
-at info@paulvanoijen.com or drop your
-thoughts in the contact form.</h5>
+            <h5>
+              Wie auch immer Ihre Ideen oder Ziele sind schreiben Sie mir eine Nachricht
+              und wir finden heraus ob wir Ihnen helfen können die Idee voran zu bringen.
+              Wenn Sie die Idee besprechen wollen, schreiben Sie uns per E-Mail, Twitter oder
+              nutzen Sie das Kontaktformular.
+            </h5>
           </div><!-- col -->
           <div class="col-sm-6 col-sm-offset-2">
             <!-- KONTAKT -->

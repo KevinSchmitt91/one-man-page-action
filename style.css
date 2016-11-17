@@ -400,6 +400,11 @@ body {
 	height: 100%;
 }
 
+.logged-in .navbar-fixed-top {
+	top: 32px;
+}
+
+
 h3 {
 	font-size: 28px;
 	margin: 10px 5px;
