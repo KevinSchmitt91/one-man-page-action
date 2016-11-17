@@ -922,6 +922,18 @@ footer .important-links a:hover {
 	color: #4A4A4A;
 }
 
+#portfolio-entry a{
+	font-weight: 500;
+	color: #01B5AF;
+	text-decoration: none;
+}
+
+#portfolio-entry a:hover{
+	font-weight: 700;
+	color: #01B5AF;
+	text-decoration: none;
+}
+
 #portfolio-entry .project-img {
 	width: 100%;
 	height: auto;
