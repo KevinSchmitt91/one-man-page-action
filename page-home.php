@@ -9,7 +9,7 @@ get_header(); ?>
 	<div class="hero-wrapper">
 		<div class="hero-content">
 			<h1>Planen. Entwerfen. Entwickeln.</h1>
-			<h2>Arbeiten Sie mit mir.</h2>
+			<h2>Arbeiten Sie mit uns.</h2>
 			<div class="bounce">
 				<a href="#page-intro" class="hero-chevron page-scroll"><i class="fa fa-chevron-down"></i></a>
 			</div> <!-- bounce -->
@@ -30,10 +30,9 @@ Projekte erschaffen</h3>
 					</div>
 					<div class="col-xs-12 content col-sm-8" style="float: none">
 							<p>
-								Durch ein innovatives , sechsstufigen Prozess , werden wir Ihr Produkt so gut stellen Sie sicher, wie es geht.
-Das Design und Build-Prozess wird uns Forschung helfen , zu erforschen und fein Ihr Produkt herstellt ,
-angefangen von User Experience bis zur endgültigen visuellen Design und Branding , einschließlich aller
-Vermögenswerte , Interaktionen und Bewegungen. <a href="#" class="link">Lesen Sie mehr über den Prozess hier.</a>
+								Durch einen inovativen, vierstufigen Prozess werden wir Ihr Produkt nach Ihren Ansprüchen fertigstellen.
+								Planung, Entwurf, Entwicklung und die Qualitätssicherung werden dafür sorgen, dass Ihr Produkt einzigartig wird.
+								<a href="/kevinschmitt/prozess" class="link">Lesen Sie mehr über den Prozess hier.</a>
 							</p>
 					</div>
 		</div><!-- content-wrapper -->
@@ -49,7 +48,7 @@ Vermögenswerte , Interaktionen und Bewegungen. <a href="#" class="link">Lesen S
 					<div class="col-sm-3">
 						<div class="service-card">
 							<div class="service-card-content">
-								<i class="fa fa-twitch"></i>
+								<i class="fa fa-chrome"></i>
 								<h4>Webseiten</h4>
 							</div><!--service-card-content --->
 						</div><!-- col-sm-3 -->
@@ -57,33 +56,36 @@ Vermögenswerte , Interaktionen und Bewegungen. <a href="#" class="link">Lesen S
 					<div class="col-sm-3">
 						<div class="service-card">
 							<div class="service-card-content">
-								<i class="fa fa-twitch"></i>
-								<h4>Webseiten</h4>
+								<i class="fa fa-paint-brush"></i>
+								<h4>Logos</h4>
 							</div><!--service-card-content --->
 						</div><!-- col-sm-3 -->
 					</div><!-- service-card -->
 					<div class="col-sm-3">
 						<div class="service-card">
 							<div class="service-card-content">
-								<i class="fa fa-twitch"></i>
-								<h4>Webseiten</h4>
+								<i class="fa fa-vcard"></i>
+								<h4>Visitenkarten</h4>
 							</div><!--service-card-content --->
 						</div><!-- col-sm-3 -->
 					</div><!-- service-card -->
 					<div class="col-sm-3">
 						<div class="service-card">
 							<div class="service-card-content">
-								<i class="fa fa-twitch"></i>
-								<h4>Webseiten</h4>
+								<i class="fa fa-file-picture-o"></i>
+								<h4>Flyer</h4>
 							</div><!--service-card-content --->
 						</div><!-- col-sm-3 -->
 					</div><!-- service-card -->
 				</div><!-- service-images -->
 				<div class="divider-white"></div>
 					<div class="single-service center-block">
-						<p><i class="fa fa-youtube"></i></p>
-						<h4 style="margin-left: 15px; margin-right: 15px;">Overlays</h4>
-						<p><i class="fa fa-twitch"> </i></p>
+						<div class="service-card-content">
+							<p><i class="fa fa-youtube"></i></p>
+							<h4 style="">Social Media Designs</h4>
+							<p><i class="fa fa-facebook-square"> </i></p>
+						</div>
+
 					</div><!-- service-card -->
 					<h5>und vieles mehr ...</h5>
 			</div><!-- content -->
@@ -97,10 +99,10 @@ Vermögenswerte , Interaktionen und Bewegungen. <a href="#" class="link">Lesen S
 		<div class="content-wrapper">
 			<div class="content">
 				<p>
-					In jedem Projekt , bemühe ich mich, einzigartig,
-gezielte Wert für das Produkt hinzuzufügen.
-Ich genieße gründlich die Arbeit, die ich tun und diese
-Leidenschaft zeigt mit den Kunden in der Arbeit durch .
+					In jedem Projekt bemühen wir uns, einzigartige und
+					gezielte Werte für das Produkt hinzuzufügen.
+					Wir genießen die Arbeit durch Leidenschaft und diese spiegelt
+					sich in dem Produkt wieder.
 				</p>
 			</div><!-- content -->
 		</div><!-- content-wrapper -->
@@ -129,7 +131,7 @@ Leidenschaft zeigt mit den Kunden in der Arbeit durch .
 						<div class="number-card-content">
 							<i class="fa fa-gears"></i>
 							<h3>Projekte</h3>
-							<h2>10</h2>
+							<h2>6</h2>
 						</div><!-- number-card-content -->
 					</div><!-- number-card -->
 				</div>
@@ -144,13 +146,16 @@ Leidenschaft zeigt mit den Kunden in der Arbeit durch .
 		<div class="content-wrapper">
 			<div class="content">
 				<i class="fa fa-lightbulb-o"></i>
-				<h2>Eine Idee für einen Auftrag ?</h2>
+				<h2>Eine Idee für ein Projekt?</h2>
 				<div class="divider-primary"></div>
 				<p>
-					Wenn Sie eine Idee für ein Projekt haben , möchte ich alles über sie zu hören.
-hestitate nicht in Kontakt zu treten .
-Schießen Sie mir eine E-Mail oder füllen Sie das Formular auf
-der Kontaktseite und lassen Sie uns diese Partei erhalten begonnen .
+					Wenn Sie eine Idee für ein Projekt haben, kontaktieren Sie uns. Scheuen Sie sich nicht
+					mit uns in Kontakt zu treten!
+					Schreiben Sie uns eine E-Mail mit Ihrem Vorhaben oder nutzen Sie unser Kontaktformular auf
+					der Kontakt-Seite.
+				</p>
+				<p>
+					Lassen Sie das Abenteuer beginnen!
 				</p>
 				<a class="btn btn-primary" href="/kevinschmitt/kontakt/">kontaktieren <i class="fa fa-send"></i></a>
 			</div><!-- content -->
